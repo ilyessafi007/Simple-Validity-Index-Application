@@ -20,7 +20,8 @@ kmeans = KMeans(n_clusters=VX.index(c_opt)+2)
 kmeans.fit(X)
 
 #7
-
+Cluster_centers = kmeans.cluster_centers_
+pred_X = kmeans.fit_predict(X)
 
 
 #8
