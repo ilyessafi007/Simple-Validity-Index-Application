@@ -27,3 +27,4 @@ pred_X = kmeans.fit_predict(X)
 #8
 plt.scatter(X[:,0], X[:,1], c=kmeans.labels_, cmap='rainbow')
 plt.scatter(kmeans.cluster_centers_[:,0] ,kmeans.cluster_centers_[:,1], color='black')
+plt.show()
