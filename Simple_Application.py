@@ -1,4 +1,4 @@
-from Partie_1 import *
+from Algorithm_implementation import *
 from sklearn.cluster import KMeans
 
 """ Partie2 :Creatiion de base de données Artificielle"""
