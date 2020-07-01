@@ -5,8 +5,8 @@ from sklearn.cluster import KMeans
 
 #a Between Scatter matrix
 def BSX(i,X,Cluster_centers):
-    mean_1 = np.mean(X[0, :])
-    mean_2 = np.mean(X[1, :])
+    mean_1 = np.mean(X[:,0])
+    mean_2 = np.mean(X[:,1])
     mean_X= np.array([[mean_1],[mean_2]])
     bsx=np.zeros((2,2))
     n=X.shape[0]/i
